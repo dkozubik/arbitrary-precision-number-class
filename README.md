@@ -11,14 +11,19 @@ as its value. Default constructed <number> is 0.
 Short example how this class works:
 
 number a( 7 ), b( 25 );
+
 number c = number( 5 ).power( 2 );
+
 assert(c == b);
 
 number s = number( 145 ).sqrt( 3 ); /* 3 fractional digits */
-/* the exact result rounded to 3 fractional places is 12.042 */
+
 number lower = number( 120415 ) * number( 10 ).power( -4 );
+
 number upper = number( 120425 ) * number( 10 ).power( -4 );
+
 assert( s > lower );
+
 assert( s < upper );
 
 
