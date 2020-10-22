@@ -3,7 +3,7 @@
 Class <number> represents a real number with an arbitrary number of digits.
 The class have operrators "+, -, /, *, ==, >, >=, <, <=" as well as <power(int)> and <sqrt(int)> <const> methods.
 Argument of <power> is the exponent and argument of <sqrt> represents the number of decimal digits
-that should be exact in the result => for example number(8).sqrt(4) represents number like "2.8284xxxxx...". /* 4 fractional digits*/
+that should be exact in the result => for example number(8).sqrt(4) represents number like "2.8284xxxxx...".
 
 Constructor of <number> takes a single integer argument and constructs an instance of ‹number› with the argument
 as its value. Default constructed <number> is 0.
